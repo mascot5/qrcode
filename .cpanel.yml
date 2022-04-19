@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/najafkar/qr1/
+    - /bin/cp -R /home/najafkar/repositories/qr-code-scanner2 $DEPLOYPATH
+    
